@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Position</title>
+  <style>
+    .header {
+      height: 70px;
+      background-color: blue;
+      color: white;
+      position: fixed;
+      left: 0px;
+      right: 0px;
+      top: 0px;
+      z-index: 2;
+    }
+    .sidebar {
+      width: 70px;
+      height: 100%;
+      position: fixed;
+      background-color: blue;
+      top:70px;
+      left: 0px
+    }
+    .absolute {
+      position: absolute;
+      color: pink;
+      top: 80px;
+      right: 0px;
+      z-index: 1;
+    }
+    .relative {
+      position: relative;
+      color: pink;
+      top: 0px;
+      right: 0px;
+    }
+    p {
+      color: red;
+    }
+  </style>
+</head>
+<body style="margin: 0px; padding-bottom: 500px; padding-top: 80px; padding-left: 80px;">
+  <div class="header">
+    this is header
+  </div>
+  <div class="sidebar">
+    this is sidebar
+  </div>
+  <div class="container">
+    <div class="absolute">
+      this is absolute
+      <div class="relative">
+        this is relative
+      </div>
+    </div>
+    <p class="first-element">Harsha here</p>
+    <p class="first-element">Harsha here</p>
+    <p class="first-element">Harsha here</p>
+    <p class="first-element">Harsha here</p>
+    <p class="first-element">Harsha here</p>
+  </div>
+</body>
+</html>

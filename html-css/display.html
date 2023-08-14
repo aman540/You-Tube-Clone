@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>display</title>
+    <!-- inline-block, block, inline, none -->
+    <style>
+      .dummy-div {
+        border: 1px solid red;
+        padding: 20px;
+        display: inline-block;
+      }
+      .dummy-div div {
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="dummy-div">
+      <div class="first-child">
+        I am the first child
+      </div>
+      <div class="second-child">
+        I am the second child
+      </div>
+      <div class="first-child">
+        I am the first child
+      </div>
+      <div class="second-child">
+        I am the second child
+      </div>
+      <div class="first-child">
+        I am the first child
+      </div>
+      <div class="second-child">
+        I am the second child
+      </div>
+    </div>
+  </body>
+</html>

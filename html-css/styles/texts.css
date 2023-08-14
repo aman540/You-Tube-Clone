@@ -1,0 +1,42 @@
+p {
+  font-family: Roboto;
+}
+
+.video-title {
+  font-size: 20px;
+  font-weight: bold;
+  width: 350px;
+  line-height: 26px;
+  margin-bottom: 8px;
+}
+
+.video-stats {
+  font-size: 14px;
+  color: grey;
+  margin-top: 0px;
+  margin-bottom: 24px;
+}
+
+.video-author,
+.video-description {
+  font-size: 16px;
+  color: grey;
+  margin-top: 0px;
+  margin-bottom: 40px;
+}
+
+.video-description {
+  width: 350px;
+}
+
+.shop-desc {
+  background-color: #e34140;
+  padding: 10px 40px;
+  color: white;
+  font-size: 16px;
+}
+
+.shop-link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

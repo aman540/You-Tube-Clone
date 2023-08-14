@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>GRID</title>
+    <style>
+      .container {
+        display: grid;
+        margin-top: 30px;
+        grid-template-columns: 100px 100px 1fr;
+      }
+
+      .container1 {
+        display: grid;
+        margin-top: 30px;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 10px;
+        row-gap: 10px;
+      }
+      
+      .first-child {
+        background-color: lightblue;
+      }
+
+      .second-child {
+        background-color: lightpink;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="first-child">
+        first-child
+      </div>
+      <div class="second-child">
+        second-child
+        <p>para 1</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="first-child">
+        first-child
+      </div>
+      <div class="second-child">
+        second-child
+      </div>
+      <div class="first-child">
+        third-child
+      </div>
+    </div>
+
+    <div class="container1">
+      <div class="first-child">
+        first-child
+      </div>
+      <div class="second-child">
+        second-child
+      </div>
+      <div class="first-child">
+        third-child
+      </div>
+      <div class="first-child">
+        first-child
+      </div>
+      <div class="second-child">
+        second-child
+      </div>
+      <div class="first-child">
+        third-child
+      </div>
+    </div>
+  </body>
+</html>
